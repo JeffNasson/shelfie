@@ -20,7 +20,7 @@ app.use(bodyParser.json());
 //     app.set('db',db);
 // })
 
-app.get('/api/products',controller.getStuff);
+app.get('/api/stuff',controller.getStuff);
 
 app.post('/api/stuff',controller.addStuff);
 
